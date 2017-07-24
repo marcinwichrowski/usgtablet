@@ -1,0 +1,16 @@
+﻿<Page x:Class="USG_tablet_UI.ListaPacjentowLandscape"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1280"
+	Title="ListaPacjentowLandscape">
+
+    <Grid Height="350" VerticalAlignment="Top">
+        <TextBox x:Name="txtSearchPacjenci" HorizontalAlignment="Left" Height="23" Margin="486,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="298" TextChanged="txtSearchPacjenci_TextChanged"/>
+        <ListBox x:Name="lstPacjenci" HorizontalAlignment="Left" Height="357" Margin="486,232,0,-239" VerticalAlignment="Top" Width="298" SelectionChanged="lstPacjenci_SelectionChanged"/>
+        <Button x:Name="btnWstecz" Content="WSTECZ" HorizontalAlignment="Left" Margin="10,704,0,-440" VerticalAlignment="Top" Width="1260" Height="86" Click="btnWstecz_Click"/>
+
+    </Grid>
+</Page>

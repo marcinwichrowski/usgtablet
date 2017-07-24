@@ -1,0 +1,16 @@
+﻿<Window x:Class="USG_tablet_UI.PresetWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PresetWindow" Height="1280" Width="800"
+        ResizeMode="NoResize" 
+        WindowStyle="None"
+        BorderBrush="Black"
+        BorderThickness="0"
+        AllowsTransparency="True"
+        Background="Transparent" >
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="675" Margin="0,605,0,0" VerticalAlignment="Top" Width="800" Source="pack://application:,,,/gfx/presets.png"/>
+        <Button x:Name="btnBack" Content="Button" HorizontalAlignment="Left" Margin="266,1170,0,0" VerticalAlignment="Top" Width="278" Opacity="0" Height="66" Click="btnBack_Click"/>
+    </Grid>
+</Window>

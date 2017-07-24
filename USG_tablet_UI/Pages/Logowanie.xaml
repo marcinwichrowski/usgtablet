@@ -1,0 +1,17 @@
+﻿<Page x:Class="USG_tablet_UI.Logowanie"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="1280" d:DesignWidth="800"
+      
+	Title="Logowanie">
+
+    <Grid Margin="0,0,0,0">
+        <Image HorizontalAlignment="Left" Height="1280" Margin="0,0,0,0" VerticalAlignment="Top" Width="800" Source="pack://application:,,,/gfx/logowanie.png"/>
+        <Rectangle x:Name="rctgZaloguj" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="112" Margin="249,947,0,0" Stroke="Black" VerticalAlignment="Top" Width="310" Opacity="0" MouseDown="rctgZaloguj_MouseDown"/>
+        <Button x:Name="btnForgotPassword" Content="Button" HorizontalAlignment="Left" Margin="28,1198,0,0" VerticalAlignment="Top" Width="261" Height="58" Opacity="0" Click="btnForgotPassword_Click"/>
+
+    </Grid>
+</Page>
