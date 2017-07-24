@@ -31,7 +31,7 @@ namespace USG_tablet_UI
         {
             InitializeComponent();
             GlobalSettings.currentPage = "Urzadzenia";
-            GlobalSettings.vh = new VideoHandler(imgVideo);
+            //GlobalSettings.vh = new VideoHandler(imgVideo);
             GlobalSettings.vh.connect(GlobalSettings.uScanIP);          
             GlobalSettings.conn = new TCPconnection(GlobalSettings.uScanIP, 13000);
             //GlobalSettings.paramListener = new TCPlistener(12000);
