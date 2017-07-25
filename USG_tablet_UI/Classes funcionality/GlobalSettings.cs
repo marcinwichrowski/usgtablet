@@ -39,7 +39,7 @@ namespace USG_tablet_UI
 
         public static void disconnectSocketStream() {
             //GlobalSettings.gainRefreshTimer.Stop();
-            //GlobalSettings.vh.disconnect();           // rozlacza transmisje video
+            GlobalSettings.vh.disconnect();           // rozlacza transmisje video
             GlobalSettings.conn.disconnect();
             GlobalSettings.gainRequestCompleted = true;
         }
